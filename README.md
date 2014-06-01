@@ -23,7 +23,9 @@ We are now trying to make it an all-platform-supported app.
 
 **Liftoff slides and video?**
 
-It seems that our group has changed our topic (Sorry - -!), so check the slides for team ***Undefined*** if it interests you.
+It seems that our group has changed our topic (Sorry - -!), so check the slides for team ***Undefined*** if it interests you. 
+
+*(We are behind the Great Fire Wall of China, so maybe you need to jump to the video on Youtube manually)*
 
 **Typical Usage**
 
@@ -86,43 +88,7 @@ It seems that our group has changed our topic (Sorry - -!), so check the slides 
 1. Web version prototype: by Milestone 1 ***(Currently in development)***
 2. Web version Beta finished: By the end of June (around Milestone 2)
 3. Mac version prototype: Around Milestone 2
-4. Web version Released. Mac Beta (A working copy): Around Milestone 3
-
-
-**Personal Log**
-
-
-Jiang Sheng's:
-
-| S/N | Task                            | Date                  | Hours                 |
-|-----|---------------------------------|-----------------------|-----------------------|
-| 1   | Ignition Day 1                  | 12-May-2014           | 8                     |
-| 2   | Installing and testing software | 13-May-2014           | 3                     |
-| 3   | Ignition Day 2                  | 14-May-2014           | 8                     |
-| 4   | FaceTime: Brainstorming and discussion    | 15-May-2014           | 3                     |
-| 5   | Learning iOS Development        | 17-May to 25-May-2014 | 2 hr/day, 16 in total |
-| 6   | FaceTime: what's next           | 27-May-2014           | 2                     |
-| 7   | Prototype preparation           | 27-May-2014           | 3                     |
-| 8   | Prototype 1: Coding             | 29-May to 1-June-2014 | 6                     |
-| 9   | Preparation for milestone 1     | 1-June-2014           | 3                     |
-|     |                                 | Total Hours           | 52                    |
-
-Wang Jinghan's:
-
-| S/N | Task                                   | Date                   | Hours |
-|-----|----------------------------------------|------------------------|-------|
-| 1   | Ignition Day 1                         | 12-May-2014            | 8     |
-| 2   | Installing and testing software        | 13-May-2014            | 3     |
-| 3   | Enjoy Holiday LOL~                     | 14-May to 22-May-2014  |       |
-| 4   | FaceTime: Brainstorming and discussion | 15-May-2014            | 3     |
-| 5   | Self-learning Python                   | 24-May to 25-May-2014  | 6     |
-| 6   | Learning jQuery                        | 25-May to 26-May-2014  | 5     |
-| 7   | FaceTime: what's next                  | 27-May-2014            | 2     |
-| 8   | Prototype preparation                  | 27-May-2014            | 3     |
-| 9   | Studying Markdown                      | 28-May-2014            | 2     |
-| 10  | Prototype 1: Coding                    | 29-May to 1-June-2014  | 6     |
-| 11  | Preparation for milestone 1            | 1-June-2014            | 3     |
-|     |                                        | Total Hours            | 41    
+4. Web version Released. Mac Beta (A working copy): Around Milestone 3 
 
 ###Prototype and Summary###
 
