@@ -11,7 +11,7 @@ Aimed Level: Gemini
 ###Ideation###
 **What is Telepaste?**
 
-In a word: *** a powerful QR code utility app on modern platform. ***
+In a word: ***a powerful QR code utility app on modern platform.***
 
 However, it is not that simple:
 
