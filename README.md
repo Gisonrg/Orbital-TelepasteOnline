@@ -1,9 +1,9 @@
 Orbital-TelepasteOnline
 =======================
-Refer to the other two git for more information
-OS X client: https://github.com/null09264/Telepaste-Mac.git
-iOS client: https://github.com/null09264/Telepaste-iOS.git
-(The iOS client is already available in Apple AppStore, v1.1 http://itunes.apple.com/cn/app/telepaste/id813168221?mt=8)
+Refer to the other two gits for more information
+* OS X client: https://github.com/null09264/Telepaste-Mac.git
+* iOS client: https://github.com/null09264/Telepaste-iOS.git
+* (The iOS client is already available in Apple AppStore, v1.1 http://itunes.apple.com/cn/app/telepaste/id813168221?mt=8)
 
 ##Telepaste##
 <img src='images/readme/Icon.png'alt='Logo' height=200px width = 200px/>
