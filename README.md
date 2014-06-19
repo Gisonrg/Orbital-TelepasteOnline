@@ -1,5 +1,9 @@
 Orbital-TelepasteOnline
 =======================
+Refer to the other two git for more information
+OS X client: https://github.com/null09264/Telepaste-Mac.git
+iOS client: https://github.com/null09264/Telepaste-iOS.git
+(The iOS client is already available in Apple AppStore, v1.1 http://itunes.apple.com/cn/app/telepaste/id813168221?mt=8)
 
 ##Telepaste##
 <img src='images/readme/Icon.png'alt='Logo' height=200px width = 200px/>
@@ -37,8 +41,8 @@ It seems that our group has changed our topic (Sorry - -!), so check the slides 
 	
 	1. Copy the link on your phone.
 	2. Open Telepaste.
-	3. With the auto-generated QRcode, use the Telepate Website to scan the code.
-	4. You have the link on your computer now.
+	3. With the auto-generated QRcode, use the Telepate Website or the Macintosh client to scan the code.
+	4. You have the link on your computer now. The link detection allows you to access the link with a single click. (Mac client)
 	
 *Situation 2*
 
@@ -57,8 +61,23 @@ It seems that our group has changed our topic (Sorry - -!), so check the slides 
 ###Planned Features###
 > As a customer, I may be interested in:
 
-> * QRcode Generate	* Generate code from text (All characters avaliable in UTF-8, numbers, URLs)	* Generate code from device clipboard* QRcode Decode	* Decode from camera scanning	* Decode from uploaded picture	* Decode from device clipboard* Others	* Lovely and modern UI (Everyone loves Flat!)	* Save the generated QRcode 	* One-click-share to your favorite social network	* NO Wi-Fi/Bluetooth connection needed (Mobile/Mac version only)
-	* App Feedback	* All platform support: iOS, Android (planned), Web, Mac* * *
+> * QRcode Generate
+	* Generate code from text (All characters avaliable in UTF-8, numbers, URLs)
+	* Generate code from device clipboard
+* QRcode Decode
+	* Decode from camera scanning
+	* Decode from uploaded picture
+	* Decode from device clipboard
+* Others
+	* Lovely and modern UI (Everyone loves Flat!)
+	* Save the generated QRcode 
+	* One-click-share to your favorite social network
+	* NO Wi-Fi/Bluetooth connection needed (Mobile/Mac version only)
+	* App community provided, including Twitter, Facebook, Weibo and Tumblr, for users' communication and feedback.
+	* App Feedback
+	* All platform support: iOS, Android (planned), Web, Mac
+
+* * *
 
 ###Reference###
 ***(Updated to June 1st)***
@@ -73,7 +92,13 @@ It seems that our group has changed our topic (Sorry - -!), so check the slides 
 	* ***[Jquery.webcamqrcode](http://marcbuils.github.io/jquery.webcamqrcode/)***: Thanks to this brilliant French friend, the web version cannot live without his work. 
 * iOS Development
 	* [Programming In Objective-C](http://www.amazon.com/Programming-Objective-C-Edition-Developers-Library/dp/0321967607): a must-read book
-	* [iOS Programming: The Big Nerd Ranch Guide (4th Edition)](http://www.amazon.com/iOS-Programming-Ranch-Edition-Guides/dp/0321942051/ref=pd_sim_b_1?ie=UTF8&refRID=01B1STJFQQHDFZ25MP59): a useful beginning tutorial
+	* Google Zxing code generating library and Kentaro Fukuchi's libQREncode library
+	* Rebekah Claypool's CoinView library
+	* Hang Chen's CHTumblrMenuView library
+	* Matt's MGBox library
+* OS X Development
+	* Google Zxing code generating library
+	* Apple's offical references
 * Others...
 	* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/): It's hard to imagine a programmer who doesn't know how to write Markdown document
 	* [Github](https://github.com/): I'm Feeling Lucky!
@@ -86,11 +111,14 @@ It seems that our group has changed our topic (Sorry - -!), so check the slides 
 **Timeline**
 
 1. Web version prototype: by Milestone 1 ***(Currently in development)***
-2. Web version Beta finished: By the end of June (around Milestone 2)
-3. Mac version prototype: Around Milestone 2
-4. Web version Released. Mac Beta (A working copy): Around Milestone 3 
+2. OSX version completed in Jun 18.
+3. Web version Beta finished: By the end of June (around Milestone 2)
+4. iOS version 2.0 prototyping and testing (around 10, July)
+5. Web version and iOS version 2.0 Released. (around Milestone 3)
 
 ###Prototype and Summary###
+
+##Web version##
 
 For the first month, we mainly did some self-learning stuffs and finalized our idea. We decided to develop the web version for the Telepaste first. And in the past few days, we have developed a working prototype which now could scan QR code using laptop's camera. It needs your browser to support Flash, which is supported by most of modern browsers. 
 
