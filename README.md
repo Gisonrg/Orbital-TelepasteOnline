@@ -118,7 +118,7 @@ It seems that our group has changed our topic (Sorry - -!), so check the slides 
 
 ###Prototype and Summary###
 
-##Web version##
+####Web version####
 
 For the first month, we mainly did some self-learning stuffs and finalized our idea. We decided to develop the web version for the Telepaste first. And in the past few days, we have developed a working prototype which now could scan QR code using laptop's camera. It needs your browser to support Flash, which is supported by most of modern browsers. 
 
@@ -135,5 +135,5 @@ Here are some screen shoot for the prototype:
 <img src='images/readme/p2.png' alt='Scan' width=600px />
 
 * * *
-
+####iOS and OS X version please refer to the corresponding git.####
 **Thank you for reading this file**
