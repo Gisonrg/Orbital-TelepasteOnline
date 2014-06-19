@@ -92,7 +92,7 @@ It seems that our group has changed our topic (Sorry - -!), so check the slides 
 	* ***[Jquery.webcamqrcode](http://marcbuils.github.io/jquery.webcamqrcode/)***: Thanks to this brilliant French friend, the web version cannot live without his work. 
 * iOS Development
 	* [Programming In Objective-C](http://www.amazon.com/Programming-Objective-C-Edition-Developers-Library/dp/0321967607): a must-read book
-	* Google Zxing code generating library and Kentaro Fukuchi's libQREncode library
+	* Zbar code generating library and Kentaro Fukuchi's libQREncode library
 	* Rebekah Claypool's CoinView library
 	* Hang Chen's CHTumblrMenuView library
 	* Matt's MGBox library
