@@ -3,7 +3,7 @@
   min-width: 380px;
 }
 .demo-headline {
-  padding: 60px 0 60px;
+  padding: 28px 0 60px;
   text-align: center;
 }
 
@@ -27,6 +27,10 @@
           margin: 0 auto;
           width: 40%;
         }
+         #generateBotton {
+          margin: 0 auto;
+          width: 40%;
+        }
 }
 @media screen and (max-width: 767px) {
         .demo-logo {
@@ -47,6 +51,11 @@
           margin: 0 auto;
           width: 100%;
         }
+         #generateBotton {
+          margin: 0 auto;
+          width: 100%;
+        }
+
 }
 /*.demo-logo .logo {
   background: url(../images/demo/logo-mask.png) center 0 no-repeat;
@@ -74,6 +83,7 @@
   width: 350px; 
   height: 350px;
 }
+
 #qrcode_result {
   width: 100%;
   border: 2px solid #DADADA;
@@ -82,4 +92,25 @@
   outline: 0 none;
 }
 
+#content {
+  width: 100%;
+  border: 2px solid #DADADA;
+  border-radius: 6px;
+  resize: none;
+  outline: 0 none;
+}
+
+.qrcode_img {
+  margin: auto;
+  vertical-align: middle;
+}
+
+
+
+.collapse.navbar-collapse {
+      float: none;
+      display: inline-block!important;
+      width: auto;
+      clear: none;
+  }
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html lang="zh">
+<!DOCTYPE html>
 
     <head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,7 +25,7 @@
 		<script charset="utf-8" type="text/javascript" src="js/jquery.webcamqrcode.js"></script>
 		<script type="text/javascript" src="js/jquery.flexibleArea.js"></script>
 		<script type="text/javascript" src="js/ZeroClipboard.min.js"></script>
-    	<script charset="utf-8" src="js/main.js"></script>
+    	<script charset="UTF-8" src="js/scan.js"></script>
 
     </head>
     <body>
@@ -36,6 +36,13 @@
 	          Telepaste
 	          <small>Powerful QRcode Utility Kit</small>
 	        </h1>
+	        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav navbar-left" >           
+          <li><a href="index.html">Home</a></li>
+            <li><a href="scan.html">Scan</a></li>
+            <li><a href="generate.html">Generate</a></li>
+          </ul>
+        </div>
 	      </div> <!-- /demo-headline -->
     	</div>
 	      
@@ -50,7 +57,6 @@
 	      		<h4>Scanning QRcode content...</h4>
 				<textarea id="qrcode_result" rows="5">Waiting...</textarea>
 				<button class='btn btn-block btn-lg btn-primary' id='copyBotton'>Copy to clipboard</button> 
-				<p>这一行用于测试中文乱码</p>
 			</div>
 	      </div>
 

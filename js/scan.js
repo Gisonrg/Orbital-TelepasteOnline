@@ -12,16 +12,7 @@
 			}
 		});
 		
-		$('#btn_start').click(function(){
-			$('#qrcodebox').WebcamQRCode().start();
-		});
-		
-		$('#btn_stop').click(function(){
-			$('#qrcodebox').WebcamQRCode().stop();
-		});
-
 		//Button
-
 		$('#copyBotton').click(function(){
 			$(this).addClass("btn-success");
 			$(this).text("Success");
