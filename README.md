@@ -7,6 +7,8 @@ Refer to the other two gits for more information
 
 
 ##Telepaste##
+###[Online Demo Site](http://gisonrg.github.io/Orbital-TelepasteOnline/)###
+
 <img src='images/readme/Icon.png'alt='Logo' height=200px width = 200px/>
 
 Orbital Team: **Undefined**:{Jiang Sheng, Wang Jinghan}
@@ -66,33 +68,40 @@ It seems that our group has changed our topic (Sorry - -!), so check the slides 
 	2. Open Telepaste (Mac or Webpage).
 	3. Scan with your iPhone
 	4. The code is auto saved and you can find the records whenever you want.
+	
+###Update User Story###
+*Situation 4*
 
+	You generate a QR code, but you would like to share it with your friends.
+
+*Solution*
+	
+	The web version will support sharing to Facebook and other social media, as well as by email.
 
 * * *
 
 ###Planned Features###
 > As a customer, I may be interested in:
 
-> * QRcode Generate
+* QRcode Generate **(Done)**
 	* Generate code from text (All characters avaliable in UTF-8, numbers, URLs)
 	* Generate code from device clipboard
-* QRcode Decode
-	* Decode from camera scanning
+* QRcode Decode 
+	* Decode from camera scanning **(Done)**
 	* Decode from uploaded picture
-	* Decode from device clipboard
 * Others
-	* Lovely and modern UI (Everyone loves Flat!)
-	* Save the generated QRcode 
+	* Lovely and modern UI (Everyone loves Flat!) **(Done)**
+	* Save the generated QRcode **(Done)**
 	* One-click-share to your favorite social network
-	* NO Wi-Fi/Bluetooth connection needed (Mobile/Mac version only)
+	* NO Wi-Fi/Bluetooth connection needed (Mobile/Mac version only) **(Done)**
 	* App community provided, including Twitter, Facebook, Weibo and Tumblr, for users' communication and feedback.
-	* App Feedback
-	* All platform support: iOS, Android (planned), Web, Mac
+	* App Feedback **(Done)**
+	* All platform support: iOS, Android (planned), Web, Mac **(Done except for Android)**
 
 * * *
 
 ###Reference###
-***(Updated to June 1st)***
+***(Updated to June 30th)***
 
 * Web UI
 	* [Flat UI](http://designmodo.github.io/Flat-UI/): a Twitter Bootstrap Framework
@@ -122,9 +131,9 @@ It seems that our group has changed our topic (Sorry - -!), so check the slides 
 ###Project Log###
 **Timeline**
 
-1. Web version prototype: by Milestone 1 ***(Currently in development)***
-2. OSX version completed in Jun 18.
-3. Web version Beta finished: By the end of June (around Milestone 2)
+1. Web version prototype: by Milestone 1 ***(Done)***
+2. OSX version completed in Jun 18. ***(Done)***
+3. Web version Beta finished: By the end of June (around Milestone 2) ***(Done)***
 4. iOS version 2.0 prototyping and testing (around 10, July)
 5. Web version and iOS version 2.0 Released. (around Milestone 3)
 
@@ -136,6 +145,10 @@ For the first month, we mainly did some self-learning stuffs and finalized our i
 
 We tried a Html 5 camera plugin but it doesn't support well for languages like Chinese and Japanese, as well as browsers like IE and Safari. In the next phase, we will finalize the beta version to make it a good QRcode app.
 
+**(Update)**
+
+This month, we finalize the reading and generating function for the web app. The following month, we will add sharing function for it.
+
 Here are some screen shoot for the prototype:
 
 **Homepage**
@@ -145,6 +158,10 @@ Here are some screen shoot for the prototype:
 **Camera Scan**
 
 <img src='images/readme/p2.png' alt='Scan' width=600px />
+
+**Generation(New)**
+
+<img src='images/readme/p3.png' alt='Scan' width=600px />
 
 * * *
 ####iOS version####
