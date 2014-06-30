@@ -5,6 +5,7 @@ Refer to the other two gits for more information
 * iOS client: https://github.com/null09264/Telepaste-iOS.git
 * (The iOS client is already available in Apple AppStore, v1.1 http://itunes.apple.com/cn/app/telepaste/id813168221?mt=8)
 
+
 ##Telepaste##
 <img src='images/readme/Icon.png'alt='Logo' height=200px width = 200px/>
 
@@ -54,6 +55,17 @@ It seems that our group has changed our topic (Sorry - -!), so check the slides 
 	2. Choose your contact details to generate the QRcode
 	3. Scan each other's code.
 	4. Invite him/her for dinner next time.
+
+*Situation 3*
+
+	Recieved some messages with your laptop, but you want to record them in your phone.
+
+*Solution*
+	
+	1. Copy the messages
+	2. Open Telepaste (Mac or Webpage).
+	3. Scan with your iPhone
+	4. The code is auto saved and you can find the records whenever you want.
 
 
 * * *
@@ -135,5 +147,13 @@ Here are some screen shoot for the prototype:
 <img src='images/readme/p2.png' alt='Scan' width=600px />
 
 * * *
-####iOS and OS X version please refer to the corresponding git.####
+####iOS version####
+
+iOS version is already available in AppStore, what we plan to do in Orbital is to upgrade the functionalities. Compared with current v1.1, v2.0 will allow users to scan the codes in their photo album as well as make their own codes. Telepaste is going to support detection of different rules according to the QR generation standards. (For example, for sending an SMS, the decoded message should be {smsto:<phone number>:<messages>})
+######iPhone######
+
+######iPad######
+
+####Mac version####
+Mac version supports detection of pasteboard actions. The code it displays will always updated to the lastest pasteboard text contents. You can save the code to png pictures or read from pictures to decode contents. Of course for those Macs with an iSight camera, Telepaste for Mac also supports directly reading the code from camera video stream. Moreover, shortcuts are supported. Save: cmd+s; Open: cmd+o; Scan: cmd+b; Cancel: cmd+t;
 **Thank you for reading this file**
