@@ -157,6 +157,7 @@ iOS version is already available in AppStore, what we plan to do in Orbital is t
 2
 <img src='images/readme/iPhone4.PNG' alt='Homepage' width=200px />
 3
+
 <img src='images/readme/iPhone3.PNG' alt='Homepage' width=200px />
 4
 <img src='images/readme/iPhone5.PNG' alt='Homepage' width=200px />
@@ -165,20 +166,21 @@ iOS version is already available in AppStore, what we plan to do in Orbital is t
 6
 
 > 
-1:Home Page
+**1:** Home Page
 > 
-2:Scanning Page
+**2:** Scanning Page
 > 
-3:Dashboard
+**3:** Dashboard
 > 
-4:Collection
+**4:** Collection
 > 
-5:Geneartion Choices
+**5:** Geneartion Choices
 > 
-6:Settings
+**6:** Settings
 
 ######iPad######
 
 ####Mac version####
 Mac version supports detection of pasteboard actions. The code it displays will always updated to the lastest pasteboard text contents. You can save the code to png pictures or read from pictures to decode contents. Of course for those Macs with an iSight camera, Telepaste for Mac also supports directly reading the code from camera video stream. Moreover, shortcuts are supported. Save: cmd+s; Open: cmd+o; Scan: cmd+b; Cancel: cmd+t;
+
 **Thank you for reading this file**
