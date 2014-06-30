@@ -151,6 +151,31 @@ Here are some screen shoot for the prototype:
 
 iOS version is already available in AppStore, what we plan to do in Orbital is to upgrade the functionalities. Compared with current v1.1, v2.0 will allow users to scan the codes in their photo album as well as make their own codes. Telepaste is going to support detection of different rules according to the QR generation standards. (For example, for sending an SMS, the decoded message should be {smsto:<phone number>:<messages>})
 ######iPhone######
+<img src='images/readme/iPhone1.PNG' alt='Homepage' width=200px />
+1
+<img src='images/readme/iPhone2.PNG' alt='Homepage' width=200px />
+2
+<img src='images/readme/iPhone4.PNG' alt='Homepage' width=200px />
+3
+<img src='images/readme/iPhone3.PNG' alt='Homepage' width=200px />
+4
+<img src='images/readme/iPhone5.PNG' alt='Homepage' width=200px />
+5
+<img src='images/readme/iPhone6.PNG' alt='Homepage' width=200px />
+6
+
+> 
+1:Home Page
+> 
+2:Scanning Page
+> 
+3:Dashboard
+> 
+4:Collection
+> 
+5:Geneartion Choices
+> 
+6:Settings
 
 ######iPad######
 
