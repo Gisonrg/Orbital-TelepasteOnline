@@ -1,7 +1,7 @@
 (function($){
 	$('document').ready(function(){
 		// $('#qrcode_result').flexible();
-
+		
 
 
 		$('#generateBotton').click(function() {
@@ -35,6 +35,31 @@
 		        } else {
 		        	spinner.stop();
 		        	img.addClass("qrcode_img");
+		        	var share = new Share(".share-btn", {
+		        	  image: url,
+					  networks: {
+					  	google_plus: {
+					      url: url,
+					    },
+					    twitter: {
+					      url:     url,
+					      description:  "This is my QR code generated from Telepaste"
+					    },
+					    facebook: {
+					      app_id:"713847372009482",
+					      title: "This is my QR code generated from Telepaste",
+					      description: "The QR code has the content of "+content,
+					      url:"gisonrg.github.io/Orbital-TelepasteOnline/"
+					    },
+					    pinterest: {
+					      enabled: false
+					    },
+					    email: {
+					      title:  "This is my QR code generated from Telepaste",
+					      description:  "The QR code has the content of "+content+", \nand you can download it as "+url,
+					    }
+					  }
+					});
 		            $("#qrcodebox").html(img);
 		        }
 		    });
