@@ -26,8 +26,9 @@
 			};
 			var target = document.getElementById('qrcodebox');
 			var spinner = new Spinner(opts).spin(target);
-			var content = $('#qrcode_result').val();
+			var content = encodeURIComponent($('#qrcode_result').val());
 			var url = "https://api.qrserver.com/v1/create-qr-code/?data="+content+"&size=320x320";
+			console.log(url);
 			var img = $("<img />").attr('src', url)
 		    .load(function() {
 		        if (!this.complete || typeof this.naturalWidth == "undefined" || this.naturalWidth == 0) {
@@ -39,11 +40,11 @@
 		        	  image: url,
 					  networks: {
 					  	google_plus: {
-					      url: url,
+					      url: encodeURIComponent(url),
 					    },
 					    twitter: {
-					      url:     url,
-					      description:  "This is my QR code generated from Telepaste"
+					      url: url,
+					      description:  "This is my QR code generated from Telepaste: "+encodeURIComponent(url),
 					    },
 					    facebook: {
 					      app_id:"713847372009482",
