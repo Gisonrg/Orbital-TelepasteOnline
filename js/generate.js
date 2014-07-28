@@ -57,7 +57,7 @@
 					    },
 					    email: {
 					      title:  "This is my QR code generated from Telepaste",
-					      description:  "The QR code has the content of "+content+", \nand you can download it as "+url,
+					      description:  "The QR code has the content of "+content+", \nand you can download it as "+encodeURIComponent(url),
 					    }
 					  }
 					});
