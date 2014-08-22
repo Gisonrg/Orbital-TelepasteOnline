@@ -5,7 +5,8 @@
 
 		$('#qrcodebox').WebcamQRCode({
 			onQRCodeDecode: function( p_data ){
-					console.log(p_data);
+					// console.log(p_data);
+					alert("Success!");
 					$('#qrcode_result').text( p_data );
 					$('#copyBotton').removeClass("btn-success");
 					$('#copyBotton').text("Copy to clipboard");
@@ -29,7 +30,7 @@
 		  // alert( "ZeroClipboard SWF is ready!" );
 		  client.on( "copy", function (event) {
 			  var clipboard = event.clipboardData;
-			  var data = $('#qrcode_result').text();
+			  var data = $('#qrcode_result').val();
 			  clipboard.setData( "text/plain", data );
 			});
 		  client.on( "aftercopy", function( event ) {
@@ -38,5 +39,7 @@
 		    // event.target.style.display = "none";
 		  } ); 
 		});
+
+
 	});
 })(jQuery);

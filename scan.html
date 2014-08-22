@@ -45,20 +45,50 @@
         </div>
 	      </div> <!-- /demo-headline -->
     	</div>
-	      
 
-	      <div class="row demo-tiles" id='scan_area'>
-	      	<div class="col-sm-5 tile">
-				<div id="qrcodebox">
+		<ul class="nav nav-tabs" role="tablist">
+		  <li class="active"><a href="#tabscan" role="tab" data-toggle="tab">Scan</a></li>
+		  <li><a href="#tabupload" role="tab" data-toggle="tab">Upload</a></li>
+		</ul>
+
+		<!-- Tab panes -->
+		<div class="tab-content">
+		  <div class="tab-pane active" id="tabscan">
+			<div class="row demo-tiles" id='scan_area'>
+		      	<div class="col-sm-5 tile">
+					<div id="qrcodebox">
+					</div>
+		      	</div>
+
+		      	<div class="col-sm-6 col-sm-offset-1 tile">
+		      		<h4>Scanning QRcode content...</h4>
+					<textarea id="qrcode_result" rows="5">Waiting...</textarea>
+					<button class='btn btn-block btn-lg btn-primary' id='copyBotton'>Copy to clipboard</button> 
 				</div>
-	      	</div>
+		      </div>
+		  </div>
+		  <div class="tab-pane" id="tabupload">
+			<div class="row demo-tiles" id='upload_area'>
+					<div class="col-sm-5 tile">
+						<div id="scan-button" >
+							<form id="image-holder">
+								<input type="file" capture="camera" accept="image/*" id="cameraInput" style="width:350px;height:350px;opacity:0;cursor:pointer;">
+							</form>
+						</div>
+					</div>
 
-	      	<div class="col-sm-6 col-sm-offset-1 tile">
-	      		<h4>Scanning QRcode content...</h4>
-				<textarea id="qrcode_result" rows="5">Waiting...</textarea>
-				<button class='btn btn-block btn-lg btn-primary' id='copyBotton'>Copy to clipboard</button> 
-			</div>
-	      </div>
+					<div class="col-sm-6 col-sm-offset-1 tile">
+						<h4>Upload QRcode...</h4>
+						<textarea id="upload_result" rows="5">Waiting...</textarea>
+						<button class='btn btn-block btn-lg btn-primary' id='copyBotton2'>Copy to clipboard</button> 
+					</div>
+				</div>	
+
+		  </div>
+		  
+		</div>
+
+	      
 
 	<!-- Load JS here for greater good =============================-->
     <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
@@ -70,5 +100,11 @@
     <script src="js/flatui-radio.js"></script>
     <script src="js/jquery.tagsinput.js"></script>
     <script src="js/jquery.placeholder.js"></script>
+
+    <!-- upload -->
+
+    <script type="text/javascript" src="js/mQR.min.js"></script>
+    <script type="text/javascript" src="js/upload.js"></script>
+
     </body>
 </html>
