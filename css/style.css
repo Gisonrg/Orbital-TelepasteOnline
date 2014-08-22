@@ -11,6 +11,10 @@
   margin-top: 0.5%;
 }
 
+footer {
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
         .demo-logo {
           font: 90px/100px "Helvetica Neue", Helvetica, Arial, sans-serif;
